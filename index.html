@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <script defer src="src/JS/script.js"></script>
+    <title>Bookmark Landing Page | Frontend Mentor</title>
+    <link rel="icon" href="images/favicon-32x32.png" />
+  </head>
+  <body>
+    <main class="bookmark-page">
+      <section class="navigation">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <img
+              class="navbar-brand"
+              src="images/logo-bookmark.svg"
+              alt="bookmark--logo"
+            />
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon custom-toggler"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#feature"
+                    >Features</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn-login">Login</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="bookmark-header">
+          <div class="content-left">
+            <h1>A Simple Bookmark Manager</h1>
+            <p>
+              A clean and simple interface to organize your favourite websites.
+              Open a new browser tab and see your sites load instantly. Try it
+              for free.
+            </p>
+            <div class="btn-download">
+              <button class="btn-chrome">Get It On Chrome</button>
+              <button class="btn-firefox">Get It On Firefox</button>
+            </div>
+          </div>
+
+          <div class="content-right">
+            <img src="images/illustration-hero.svg" alt="hero--image" />
+            <div class="background-blue"></div>
+          </div>
+        </div>
+      </section>
+      <section class="features" id="feature">
+        <div class="features-header">
+          <h1 class="features-heading">Features</h1>
+          <p class="features-para">
+            Our aim is to make it quick and easy for you to access your
+            favourite websites. Your bookmarks sync between your devices so you
+            can access them on the go.
+          </p>
+        </div>
+        <div class="features-tabbed">
+          <div class="features-tab-container">
+            <button
+              class="btn features-tab features-tab-1 features-tab--active"
+              data-tab="1"
+            >
+              Simple Bookmarking
+            </button>
+            <button class="btn features-tab features-tab-2" data-tab="2">
+              Speedy Searching
+            </button>
+            <button class="btn features-tab features-tab-3" data-tab="3">
+              Easy Sharing
+            </button>
+          </div>
+          <div
+            class="features-content features-content-1 features-content--active"
+          >
+            <div class="features-image features-image-1">
+              <img
+                src="images/illustration-features-tab-1.svg"
+                alt="Illustration Features"
+              />
+              <div class="background-blue"></div>
+            </div>
+            <h4 class="features-tab-header">Bookmark in one click</h4>
+            <p class="features-tab-para">
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites.
+            </p>
+            <button class="btn--info">More Info</button>
+          </div>
+          <div class="features-content features-content-2">
+            <div class="features-image features-image-2">
+              <img
+                class="illustration-2"
+                src="images/illustration-features-tab-2.svg"
+                alt="Illustration Features"
+              />
+              <div class="background-blue"></div>
+            </div>
+            <h4 class="features-tab-header">Intelligent Search</h4>
+            <p class="features-tab-para">
+              Our powerful search feature will help you find saved sites in no
+              time at all. No need to trawl through all of your bookmarks.
+            </p>
+            <button class="btn--info">More Info</button>
+          </div>
+          <div class="features-content features-content-3">
+            <div class="features-image features-image-3">
+              <img
+                src="images/illustration-features-tab-3.svg"
+                alt="Illustration Features"
+              />
+              <div class="background-blue"></div>
+            </div>
+            <h4 class="features-tab-header">Share your bookmarks</h4>
+            <p class="features-tab-para">
+              Easily share your bookmarks and collections with others. Create a
+              shareable link that you can send at the click of a button.
+            </p>
+            <button class="btn--info">More Info</button>
+          </div>
+        </div>
+      </section>
+      <section class="download" id="pricing">
+        <div class="download--header">
+          <h1 class="downloads--text">Downloads</h1>
+          <div class="down--para">
+            <p class="downloads--para">
+              We've got more browsers in the pipeline. Please do let us know if
+              you've got a favourite you'd like us to prioritize.
+            </p>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img
+              class="chrome--logo"
+              src="images/logo-chrome.svg"
+              alt="chrome-logo"
+            />
+            <h1 class="browser--heading">Add to Chrome</h1>
+            <p class="browser--version--req">Minimum version 62</p>
+            <div class="bottom">
+              <img src="images/bg-dots.svg" alt="" />
+              <button class="add">Add & Install Extension</button>
+            </div>
+          </div>
+          <div class="card" style="top: 3rem">
+            <img
+              class="firefox--logo"
+              src="images/logo-firefox.svg"
+              alt="chrome-logo"
+            />
+            <h1 class="browser--heading">Add to Firefox</h1>
+            <p class="browser--version--req">Minimum version 55</p>
+            <div class="bottom--contents">
+              <img src="images/bg-dots.svg" alt="firefox-logo" />
+              <button class="add">Add & Install Extension</button>
+            </div>
+          </div>
+          <div class="card" style="top: 6rem">
+            <img
+              class="opera--logo"
+              src="images/logo-opera.svg"
+              alt="opera-logo"
+            />
+
+            <h1 class="browser--heading">Add to Opera</h1>
+            <p class="browser--version--req">Minimum version 45</p>
+            <div class="bottom">
+              <img src="images/bg-dots.svg" alt="" />
+              <button class="add">Add & Install Extension</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="faq-heading">
+          <h1>Frequently Asked Questions</h1>
+          <p>
+            Here are some of our FAQs. If you have any other questions you’d
+            like answered please feel free to email us.
+          </p>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                What is Bookmark?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  tincidunt justo eget ultricies fringilla. Phasellus blandit
+                  ipsum quis quam ornare mattis
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                How can I request a new browser?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+                  massa, ultricies non ligula. Suspendisse imperdiet. Vivamus
+                  luctus eros aliquet convallis ultricies. Mauris augue massa,
+                  ultricies non ligula. Suspendisse imperdie tVivamus luctus
+                  eros aliquet convallis ultricies. Mauris augue massa,
+                  ultricies non ligula. Suspendisse imperdiet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Is there a mobile app?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Sed consectetur quam id neque fermentum accumsan. Praesent
+                  luctus vestibulum dolor, ut condimentum urna vulputate eget.
+                  Cras in ligula quis est pharetra mattis sit amet pharetra
+                  purus. Sed sollicitudin ex et ultricies bibendum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                What about other Chromium browsers?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Integer condimentum ipsum id imperdiet finibus. Vivamus in
+                  placerat mi, at euismod dui. Aliquam vitae neque eget nisl
+                  gravida pellentesque non ut velit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn-more">More Info</button>
+      </section>
+      <section class="contact" id="contact">
+        <div class="contact-heading">
+          <h3 class="contact-header">35,000+ ALREADY JOINED</h3>
+          <p>Stay up-to-date with what we're doing</p>
+        </div>
+        <div class="input">
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            class="email-input"
+          />
+          <p class="error-message">Whoops,make sure it's an email</p>
+          <img
+            src="images/icon-error.svg"
+            class="error-icon"
+            alt="error-icon"
+          />
+        </div>
+        <button class="btn-contact">Contact Us</button>
+      </section>
+      <section class="footer">
+        <div class="footer-list">
+          <ul>
+            <li>
+              <img
+                src="images/footer-bookmark.svg"
+                alt="bookmark-icon"
+                class="footer-bookmark"
+              />
+            </li>
+            <li><a href="#feature">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <img
+                src="images/icon-facebook.svg"
+                alt="facebook-icon"
+                class="facebook"
+              />
+            </li>
+            <li>
+              <img
+                src="images/icon-twitter.svg"
+                alt="twitter-icon"
+                class="twitter"
+              />
+            </li>
+          </ul>
+        </div>
+        <h3>
+          Challenge by Frontend Mentor. Coded by
+          <a href="https://github.com/sidKale">Siddhesh Kale</a>
+        </h3>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+.faq {
+  width: 100%;
+  height: 700px;
+}
+
+.faq .faq-heading h1 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.faq .faq-heading p {
+  width: 480px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  left: 32.5%;
+  margin-top: 1rem;
+  color: #9194a1;
+}
+
+.faq .accordion {
+  width: 650px;
+  position: relative;
+  left: 28%;
+  top: 5%;
+}
+
+.faq .accordion .accordion-button {
+  font-size: 18px;
+  font-weight: 500;
+  height: 80px;
+}
+
+.faq .accordion .accordion-button:hover {
+  box-shadow: none;
+  outline: none;
+  color: #fa5757;
+  background: transparent;
+}
+
+.faq .btn-more {
+  position: relative;
+  left: 47%;
+  top: 10%;
+  width: 120px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  color: snow;
+  background: #5368df;
+}
+
+.faq .btn-more:hover {
+  color: #5368df;
+  background: transparent;
+  border: 2px solid #5368df;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .faq {
+    width: 100%;
+  }
+  .faq .faq-heading h1 {
+    text-align: center;
+    margin-left: 2rem;
+  }
+  .faq .faq-heading p {
+    font-size: 12px;
+    margin-left: -3.5rem;
+    width: 250px;
+  }
+  .faq .accordion {
+    width: 300px;
+    margin: 0rem 0rem 0rem -1rem;
+  }
+  .faq .btn-more {
+    position: relative;
+    left: 60%;
+  }
+}
+/*# sourceMappingURL=faq.css.map */

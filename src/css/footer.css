@@ -1,0 +1,49 @@
+.footer {
+  width: 100%;
+  height: 100px;
+  background: #252b46;
+}
+
+.footer .footer-list {
+  padding: 2rem 0rem 0rem 4rem;
+}
+
+.footer li {
+  list-style-type: none;
+  display: inline;
+}
+
+.footer .footer-bookmark {
+  margin-right: 5rem;
+}
+
+.footer a {
+  color: snow;
+  text-decoration: none;
+  margin-right: 3.5rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  color: #fa5757;
+}
+
+.footer .facebook,
+.footer .twitter {
+  float: right;
+  margin-right: 5rem;
+}
+
+.footer h3 {
+  font-size: 14px;
+  color: snow;
+  text-align: center;
+  margin: none;
+}
+
+.footer h3 a {
+  font-size: 14px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=footer.css.map */

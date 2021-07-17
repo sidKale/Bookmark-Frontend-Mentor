@@ -1,0 +1,125 @@
+@import url("variable.scss");
+.download {
+  width: 100%;
+  height: 700px;
+  overflow-x: hidden;
+  font-family: "Rubik", sans-serif;
+}
+
+.downloads--text {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 650;
+}
+
+.down--para {
+  position: relative;
+  left: 28%;
+}
+
+.downloads--para {
+  text-align: center;
+  width: 500px;
+  line-height: 1.5;
+  color: lightslategray;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 280px;
+  height: 350px;
+  margin-right: 5rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 5px 19px 14px rgba(212, 179, 179, 0.27);
+  -webkit-box-shadow: 3px 5px 19px 14px rgba(212, 179, 179, 0.27);
+  -moz-box-shadow: 3px 5px 19px 14px rgba(212, 179, 179, 0.27);
+}
+
+.chrome--logo,
+.firefox--logo,
+.opera--logo {
+  width: 102px;
+  height: 100px;
+  float: left;
+  margin: auto;
+}
+
+.browser--heading {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: -25px;
+}
+
+.browser--version--req {
+  font-size: 15px;
+  text-align: center;
+  color: lightslategray;
+}
+
+.add {
+  width: 190px;
+  height: 44px;
+  border-radius: 5px;
+  margin: 10px 0px 20px 2.5rem;
+  background: #5368df;
+  color: snow;
+  font-size: 14px;
+  border: none;
+}
+
+.add:hover {
+  background: snow;
+  color: #5368df;
+  border: 2px solid #5368df;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .download {
+    width: 100%;
+  }
+  .download .download--header .downloads--text {
+    text-align: center;
+  }
+  .download .download--header .downloads--para {
+    text-align: center;
+  }
+  .download .cards {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .download {
+    width: 100%;
+    height: 1300px;
+    overflow: hidden;
+    margin-top: 2rem;
+  }
+  .download--header .downloads--text {
+    text-align: center;
+    font-size: 25px;
+  }
+  .download--header .downloads--text p {
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    margin-right: 20rem !important;
+  }
+  .cards {
+    margin: 0rem 0rem 0rem 2.5rem;
+  }
+  .cards .cards {
+    width: 200px;
+  }
+}
+/*# sourceMappingURL=downloads.css.map */

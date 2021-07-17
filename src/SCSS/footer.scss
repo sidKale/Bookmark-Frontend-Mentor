@@ -1,0 +1,44 @@
+@import url("variable.scss");
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: $TextColor;
+  font-family: "Rubik", sans-serif;
+  .footer-list {
+    padding: 2rem 0rem 0rem 4rem;
+  }
+  li {
+    list-style-type: none;
+    display: inline;
+  }
+  .footer-bookmark {
+    margin-right: 5rem;
+  }
+  a {
+    color: snow;
+    text-decoration: none;
+    margin-right: 3.5rem;
+    font-size: 18px;
+    font-weight: 500;
+
+    &:hover {
+      color: $primaryBackgroundColor;
+    }
+  }
+  .facebook,
+  .twitter {
+    float: right;
+    margin-right: 5rem;
+  }
+  h3 {
+    font-size: 14px;
+    color: snow;
+    text-align: center;
+    margin: none;
+    a {
+      font-size: 14px;
+      text-decoration: none;
+    }
+  }
+}
